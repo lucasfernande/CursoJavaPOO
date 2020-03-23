@@ -1,18 +1,13 @@
-package entities;
+package model.entities;
 
-import entities.enums.Colors;
+import model.enums.Color;
 
-public class Rectangle extends Shape{
-    
-	
+public class Rectangle extends AbstractShape {
+
 	private Double width;
 	private Double height;
-	
-	public Rectangle() {
-		super();
-	}
-	
-	public Rectangle(Colors color, Double width, Double height) {
+
+	public Rectangle(Color color, Double width, Double height) {
 		super(color);
 		this.width = width;
 		this.height = height;
@@ -36,7 +31,6 @@ public class Rectangle extends Shape{
 
 	@Override
 	public double area() {
-		return height * width;
+		return width * height;
 	}
-
 }
