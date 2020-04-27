@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Arquivos/src"/>
+	<classpathentry kind="src" path="condiçao-ternaria/src"/>
+	<classpathentry kind="src" path="Datas/src"/>
+	<classpathentry kind="src" path="Enumeracoes/src"/>
+	<classpathentry kind="src" path="ExemploProblemaPOO/src"/>
+	<classpathentry kind="src" path="for/src"/>
+	<classpathentry kind="src" path="funções matematicas/src"/>
+	<classpathentry kind="src" path="Herança/src"/>
+	<classpathentry kind="src" path="if-else/src"/>
+	<classpathentry kind="src" path="Listas/src"/>
+	<classpathentry kind="src" path="Matrizes/src"/>
+	<classpathentry kind="src" path="Métodos abstratos/src"/>
+	<classpathentry kind="src" path="Polimorfismo/src"/>
+	<classpathentry kind="src" path="Projeto Comentários/src"/>
+	<classpathentry kind="src" path="Projeto Trabalhador/src"/>
+	<classpathentry kind="src" path="SegundoPOO/src"/>
+	<classpathentry kind="src" path="TryCatch/src"/>
+	<classpathentry kind="src" path="vetores/src"/>
+	<classpathentry kind="src" path="while/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
