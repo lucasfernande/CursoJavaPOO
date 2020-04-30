@@ -1,28 +1,27 @@
 package application;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
+
+import entities.Product;
 
 public class Program {
 
 	public static void main(String[] args) {
 	
-          Map<String, String> cookies = new TreeMap<>();
-          
-          cookies.put("username", "tarikdanovageraçao");
-          cookies.put("email", "paulin_pinho@gmail.com");
-          cookies.put("phone", "11111111");
-          
-          cookies.remove("email"); // removendo uma chave
-          
-          System.out.println("Contains 'phone' key?: " + cookies.containsKey("phone") ); // se usa o contains para verificar se uma chave existe
-          System.out.println("Phone number: " + cookies.get("phone")); // get para pegar o valor de uma chave
-          System.out.println("Size: " + cookies.size()); // mostrando o tamanho do map
-          
-          System.out.println("\ncookies: ");
-          for (String key : cookies.keySet()) {
-        	  System.out.println(key + ": " + cookies.get(key));
-          }
+        Map<Product, Double> prod = new HashMap<>();
+        
+        Product p1 = new Product("Tv", 900.00);
+        Product p2 = new Product("Notebook", 1200.00);
+        Product p3 = new Product("Tablet", 400.00);
+        
+        prod.put(p1, 10000.00);
+        prod.put(p2, 20000.00);
+        prod.put(p3, 15000.00);
+        
+        Product ps = new Product("Tv", 900.00);
+        
+        System.out.println("Contains 'ps' key: " + prod.containsKey(ps));
 		
 	}
 
